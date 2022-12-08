@@ -1,0 +1,8 @@
+input:invalid {
+    border: red solid 3px;
+}
+
+#test input{
+    width:80%;
+    display: inline-block;
+}

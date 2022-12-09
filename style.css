@@ -2,11 +2,19 @@ input:invalid {
     border: red solid 3px;
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-          font-size: 30px;
-    }
-    h2 {
-          font-size: 25px;
-    }
+h2 {
+    font-size: 1em;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 80px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
 }
